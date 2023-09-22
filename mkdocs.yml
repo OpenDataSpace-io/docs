@@ -1,3 +1,24 @@
 site_name: OpenDataSpace Documentation
 theme:
   name: material
+
+extra:
+  alternate:
+    - name: English
+      link: /en/ 
+      lang: en
+    - name: Deutsch
+      link: /de/
+      lang: de
+
+plugins:
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: de
+          name: Deutsch
+          build: true
