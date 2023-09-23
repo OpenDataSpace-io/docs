@@ -8,14 +8,16 @@ Erster Entwurf System Context
 ```mermaid
 C4Context
     Person(Benutzer, "Benutzer")
-    System(TourismusSysteme, "Tourismus Systeme")
-
+    
     Boundary(b1, "", "") {
-        System(OpenDataSpace, "OpenDataSpace", "Software System")
+        System(OpenDataSpace, "OpenDataSpace", "Erlaubt Benutzer offene Daten zu erstellen und bearbeiten")
+    }
+    Boundary(b2, "", "") {
+        System(TourismusSysteme, "Tourismus Systeme", "Bspw. CMS, PIM, ContentHubs, etc.")
     }
 
     Rel(Benutzer, OpenDataSpace, "Erstellen und Bearbeiten")
-    Rel(OpenDataSpace, TourismusSysteme, "Lesen und Schreiben")
+    BiRel(OpenDataSpace, TourismusSysteme, "Lesen und Schreiben")
 
     UpdateLayoutConfig($c4ShapeInRow="3", $c4BoundaryInRow="1")
 ```
