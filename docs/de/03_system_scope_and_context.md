@@ -19,8 +19,8 @@ C4Context
     }
 
     Rel(Benutzer, OpenDataSpace, "Erstellen und Bearbeiten")
-    Rel(Moderator, OpenDataSpace, "Erstellen, Bearbeiten und Archivieren")
-    Rel(Admin, OpenDataSpace, "Erstellen, Bearbeiten, Archivieren und Löschen/Bereinigen")
+    Rel(Moderator, OpenDataSpace, "Archivieren")
+    Rel(Admin, OpenDataSpace, "Löschen/Bereinigen")
     BiRel(OpenDataSpace, TourismusSysteme, "Lesen und Schreiben")
 
     UpdateLayoutConfig($c4ShapeInRow="3", $c4BoundaryInRow="1")
