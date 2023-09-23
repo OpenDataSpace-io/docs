@@ -23,5 +23,4 @@ jobs:
             mkdocs-material-
       - run: pip install mkdocs-material
       - run: pip install mkdocs-static-i18n
-      - run: echo "docs.opendataspace.io" > CNAME
       - run: mkdocs gh-deploy --force
