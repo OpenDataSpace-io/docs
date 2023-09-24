@@ -16,8 +16,8 @@ classDiagram
 
     }
 
-    Thing "0..*" --- "0..*" Property : has
-    User "0..*" --- "0..*" Thing : has
+    Thing "0..*" --> "0.*" Property : has
+    User "0..*" --> "0..*" Thing : has
 ```
 
 *\<Erklärung>*

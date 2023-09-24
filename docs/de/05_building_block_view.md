@@ -12,7 +12,6 @@ C4Container
         ContainerDb(DB, "Database", "SQL", "Stores user and things")
     }
 
-    Rel(Sachbearbeiter, webapp, "HTTPS")
     Rel(User, PWA, "HTTPS")
     Rel(PWA, API, "Requests")
     Rel(API, DB, "CRUD")
