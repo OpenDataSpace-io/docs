@@ -32,8 +32,19 @@ classDiagram
     Property --> "1..*" Thing 
 
 ```
-
-*\<Erklärung>*
+### Examples
+```JSONLD
+{
+    "@context": "https://schema.org/",
+    "@type": "Thing",
+    "name": "Schema.org Ontology",
+    "subjectOf": {
+        "@type": "Book",
+        "name": "The Complete History of Schema.org"
+    }
+}
+```
+[Source](https://schema.org/Thing#examples)
 
 ## *\<Konzept 2>*
 
