@@ -29,6 +29,7 @@ classDiagram
     Product --|> Thing
     Person --|> Thing
     Organization --|> Thing
+    Property --> "1..*" Thing 
 
 ```
 
