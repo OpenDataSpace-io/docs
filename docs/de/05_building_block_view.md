@@ -1,5 +1,25 @@
 # Bausteinsicht
 
+```mermaid
+C4Container
+    Person(User, "User")
+    Person(Moderator, "Moderator")
+    Person(Admin, "Administator")
+
+    Boundary(CarRent, "", "") {
+        Container(PWA, "PWA", "", "")
+        Container(API, "API", "", "")
+        ContainerDb(DB, "Database", "SQL", "Stores user and things")
+    }
+
+    Rel(Sachbearbeiter, webapp, "HTTPS")
+    Rel(User, PWA, "HTTPS")
+    Rel(PWA, API, "Requests")
+    Rel(API, DB, "CRUD")
+
+    UpdateLayoutConfig($c4ShapeInRow="2", $c4BoundaryInRow="1")
+```
+
 ## Whitebox Gesamtsystem
 
 ***\<Übersichtsdiagramm>***

@@ -7,7 +7,7 @@ Erster Entwurf System Context
 ## C4 Model - Context
 ```mermaid
 C4Context
-    Person(Benutzer, "Benutzer")
+    Person(User, "User")
     Person(Moderator, "Moderator")
     Person(Admin, "Administator")
     
@@ -18,7 +18,7 @@ C4Context
         System(TourismusSysteme, "Tourismus Systeme", "Bspw. CMS, PIM, ContentHubs, etc.")
     }
 
-    Rel(Benutzer, OpenDataSpace, "Erstellen und Bearbeiten")
+    Rel(User, OpenDataSpace, "Erstellen und Bearbeiten")
     Rel(Moderator, OpenDataSpace, "Archivieren")
     Rel(Admin, OpenDataSpace, "Löschen/Bereinigen")
     BiRel(OpenDataSpace, TourismusSysteme, "Lesen und Schreiben")
