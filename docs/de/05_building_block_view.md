@@ -13,7 +13,7 @@ C4Container
     }
 
     Rel(User, PWA, "HTTPS")
-    Rel(PWA, API, "Requests")
+    Rel(PWA, API, "JSON-LD")
     Rel(API, DB, "CRUD")
 
     UpdateLayoutConfig($c4ShapeInRow="2", $c4BoundaryInRow="1")
