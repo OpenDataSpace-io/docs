@@ -58,7 +58,7 @@
 ```
 [Source](https://schema.org/OpeningHoursSpecification#eg-0193)
 
-## Event mit Location
+## Event mit Location / Place
 ```JSONLD
 {
   "@context": "https://schema.org",
