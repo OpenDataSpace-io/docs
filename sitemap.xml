@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>None./</loc>
+        <lastmod>2023-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="None"/>
+        <xhtml:link rel="alternate" hreflang="de" href="Nonede/"/>
+    </url>
+    <url>
+        <loc>Nonede/</loc>
+        <lastmod>2023-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="Nonede/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="None"/>
+    </url>
+    <url>
+        <loc>Nonede/01_introduction_and_goals/</loc>
+        <lastmod>2023-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="Nonede/01_introduction_and_goals/"/>
+    </url>
+    <url>
+        <loc>Nonede/02_architecture_constraints/</loc>
+        <lastmod>2023-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="Nonede/02_architecture_constraints/"/>
+    </url>
+    <url>
+        <loc>Nonede/03_system_scope_and_context/</loc>
+        <lastmod>2023-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="Nonede/03_system_scope_and_context/"/>
+    </url>
+    <url>
+        <loc>Nonede/04_solution_strategy/</loc>
+        <lastmod>2023-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="Nonede/04_solution_strategy/"/>
+    </url>
+    <url>
+        <loc>Nonede/05_building_block_view/</loc>
+        <lastmod>2023-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="Nonede/05_building_block_view/"/>
+    </url>
+    <url>
+        <loc>Nonede/06_runtime_view/</loc>
+        <lastmod>2023-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="Nonede/06_runtime_view/"/>
+    </url>
+    <url>
+        <loc>Nonede/07_deployment_view/</loc>
+        <lastmod>2023-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="Nonede/07_deployment_view/"/>
+    </url>
+    <url>
+        <loc>Nonede/08_concepts/</loc>
+        <lastmod>2023-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="Nonede/08_concepts/"/>
+    </url>
+    <url>
+        <loc>Nonede/09_architecture_decisions/</loc>
+        <lastmod>2023-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="Nonede/09_architecture_decisions/"/>
+    </url>
+    <url>
+        <loc>Nonede/10_quality_requirements/</loc>
+        <lastmod>2023-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="Nonede/10_quality_requirements/"/>
+    </url>
+    <url>
+        <loc>Nonede/11_technical_risks/</loc>
+        <lastmod>2023-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="Nonede/11_technical_risks/"/>
+    </url>
+    <url>
+        <loc>Nonede/12_glossary/</loc>
+        <lastmod>2023-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="Nonede/12_glossary/"/>
+    </url>
+    <url>
+        <loc>Nonede/examples/examples/</loc>
+        <lastmod>2023-09-25</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="Nonede/examples/examples/"/>
+    </url>
+</urlset>
